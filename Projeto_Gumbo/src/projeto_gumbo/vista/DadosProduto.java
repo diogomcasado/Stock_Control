@@ -85,7 +85,7 @@ public class DadosProduto extends javax.swing.JDialog {
 
         jLabel6.setText("Preço:");
 
-        jLabel2.setFont(new java.awt.Font("Mistral", 1, 48)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Tw Cen MT", 1, 48)); // NOI18N
         jLabel2.setText("GUMBO");
 
         btnCancelar.setText("Cancelar");
@@ -159,10 +159,8 @@ public class DadosProduto extends javax.swing.JDialog {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jScrollPane1)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(tfNome, javax.swing.GroupLayout.PREFERRED_SIZE, 223, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))))))
-                .addContainerGap(24, Short.MAX_VALUE))
+                                    .addComponent(tfNome, javax.swing.GroupLayout.PREFERRED_SIZE, 223, javax.swing.GroupLayout.PREFERRED_SIZE))))))
+                .addContainerGap(26, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
